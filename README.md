@@ -28,7 +28,7 @@ If you find our work helpful in your research, please consider citing:
 ```bibtex
 
 @article{li2023edge,
-  title={Edge Accelerated Robot Navigation with Hierarchical Motion Planning},
+  title={Edge Accelerated Robot Navigation with Collaborative Motion Planning},
   author={Li, Guoliang and Han, Ruihua and Wang, Shuai and Gao, Fei and Eldar, Yonina C and Xu, Chengzhong},
   journal={arXiv preprint arXiv:2311.08983},
   year={2023}
