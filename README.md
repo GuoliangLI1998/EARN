@@ -1,12 +1,12 @@
 # EARN
 
-Edge Accelerated Robot Navigation With Collaborative Motion Planning
+**E**dge **A**ccelerated **R**obot **N**avigation With Collaborative Motion Planning
 
 ![](./Images/Architecture.jpg)
 
 ## News
 
-- [2024/06]: EARN has been accepted by *IEEE/ASME Transactions on Mechatronics (TMECH)* and the code will be released recently.
+- [2024/06]: EARN has been accepted by ***IEEE/ASME Transactions on Mechatronics (TMECH)*** and the code will be released recently.
 - [2023/11]: The preprint version of EARN is available on [arXiv](https://arxiv.org/abs/2311.08983).
 
 ## Simulations
