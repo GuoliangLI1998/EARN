@@ -2,7 +2,7 @@
 
 Edge Accelerated Robot Navigation With Collaborative Motion Planning
 
-![FIG2](https://github.com/GuoliangLI1998/EARN/assets/107024891/b11bcc4e-4a7d-4445-901b-972a613e9619)
+![](./Images/Architecture.jpg)
 
 ## News
 
@@ -11,15 +11,15 @@ Edge Accelerated Robot Navigation With Collaborative Motion Planning
 
 ## Simulations
 
-![FIG8](https://github.com/GuoliangLI1998/EARN/assets/107024891/d3eb4022-94f7-4dfa-b297-88c40ae66f6c)
+![](./Images/Simulation.jpg)
 
 ## Experiments
 
-![FIG12](https://github.com/GuoliangLI1998/EARN/assets/107024891/12a2c4be-4563-4edd-97a6-6aa6bfad5382)
+![](./Images/Experiment.jpg)
 
 ## Video
 
-https://github.com/GuoliangLI1998/EARN/assets/107024891/f9c71dee-c63e-4792-b8ec-f9199b0777f6
+https://github.com/GuoliangLI1998/EARN/assets/107024891/21dcf0b7-ad05-4bb3-bbad-3f255fed22bc
 
 ## Citation
 
@@ -30,8 +30,9 @@ If you find our work helpful in your research, please consider citing:
 @article{li2023edge,
   title={Edge Accelerated Robot Navigation with Collaborative Motion Planning},
   author={Li, Guoliang and Han, Ruihua and Wang, Shuai and Gao, Fei and Eldar, Yonina C and Xu, Chengzhong},
-  journal={arXiv preprint arXiv:2311.08983},
-  year={2023}
+  journal={IEEE/ASME Transactions on Mechatronics},
+  year={2024},
+  publisher={IEEE}
 }
 
 ```
