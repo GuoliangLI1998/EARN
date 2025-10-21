@@ -1,0 +1,76 @@
+{
+    "obstacles": [
+        {
+            "type": "vehicle.audi.a2",
+            "location": {
+                "x": 413.5,
+                "y": -90,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        },
+        {
+            "type": "vehicle.nissan.patrol_2021",
+            "location": {
+                "x": 413,
+                "y": -72,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        },
+        {
+            "type": "vehicle.nissan.patrol_2021",
+            "location": {
+                "x": 405,
+                "y": -85,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        },
+        {
+            "type": "vehicle.nissan.patrol_2021",
+            "location": {
+                "x": 402,
+                "y": -76,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        },
+        {
+            "type": "vehicle.nissan.patrol_2021",
+            "location": {
+                "x": 408,
+                "y": -56,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        },
+        {
+            "type": "vehicle.nissan.patrol_2021",
+            "location": {
+                "x": 413,
+                "y": -83,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        }
+    ]
+}

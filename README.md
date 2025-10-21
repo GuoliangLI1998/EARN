@@ -1,18 +1,44 @@
 # EARN
 
-**E**dge **A**ccelerated **R**obot **N**avigation With Collaborative Motion Planning
+This is the code of **E**dge **A**ccelerated **R**obot **N**avigation With Collaborative Motion Planning.
 
 ![Image](https://github.com/user-attachments/assets/2e347949-2c45-40ba-8180-0ae5f13b658e)
 
-## Simulations
+## Preqrequisite
 
-<img width="2636" height="1209" alt="Image" src="https://github.com/user-attachments/assets/c1a2e982-8b70-4fc2-ac01-96b64e47ac30" />
+Please install the following libraries and packages first.
 
-## Experiments
+- Python >= 3.8
+- [CVXPY](https://www.cvxpy.org/)
+- [ROS Noetic](https://wiki.ros.org/noetic)
+- [Carla](https://carla.org/)
+- [Carla-ROS-bridge](https://github.com/carla-simulator/ros-bridge)
 
-<img width="2172" height="1081" alt="Image" src="https://github.com/user-attachments/assets/6a5fe88b-7496-4575-84fa-27bf4eda2b71" />
+> [!NOTE]
+> *We recommend using Python 3.8 and Conda to manage Python environments, as examples are based on CARLA.*
 
-## Video
+## Test Environment 
+
+- Ubuntu 20.04
+
+## Code Use
+
+You can firstly install the package by running the commands below:
+
+```
+bash ./setup.sh
+```
+
+Then you can run the commands below:
+```
+cd $CARLA_ROOT
+bash ./CarlaUE4.sh
+```
+```
+./pdd_demo.sh
+```
+
+## Paper Video
 
 https://github.com/GuoliangLI1998/EARN/assets/107024891/21dcf0b7-ad05-4bb3-bbad-3f255fed22bc
 
