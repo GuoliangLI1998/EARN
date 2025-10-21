@@ -2,20 +2,15 @@
 
 **E**dge **A**ccelerated **R**obot **N**avigation With Collaborative Motion Planning
 
-![](./Images/Architecture.jpg)
-
-## News
-
-- [2024/06]: EARN has been accepted by ***IEEE/ASME Transactions on Mechatronics (TMECH)*** and the code will be released recently.
-- [2023/11]: The preprint version of EARN is available on [arXiv](https://arxiv.org/abs/2311.08983).
+![Image](https://github.com/user-attachments/assets/2e347949-2c45-40ba-8180-0ae5f13b658e)
 
 ## Simulations
 
-![](./Images/Simulation.jpg)
+<img width="2636" height="1209" alt="Image" src="https://github.com/user-attachments/assets/c1a2e982-8b70-4fc2-ac01-96b64e47ac30" />
 
 ## Experiments
 
-![](./Images/Experiment.jpg)
+<img width="2172" height="1081" alt="Image" src="https://github.com/user-attachments/assets/6a5fe88b-7496-4575-84fa-27bf4eda2b71" />
 
 ## Video
 
@@ -23,26 +18,40 @@ https://github.com/GuoliangLI1998/EARN/assets/107024891/21dcf0b7-ad05-4bb3-bbad-
 
 ## Citation
 
-If you find our work helpful in your research, please consider citing:
+If you find our work helpful in your research, please consider **starring** the repository and **citing** our work using the following BibTeX entries:
 
-```bibtex
+```
+@ARTICLE{10601554,
+  author={Li, Guoliang and Han, Ruihua and Wang, Shuai and Gao, Fei and Eldar, Yonina C. and Xu, Chengzhong},
+  journal={IEEE/ASME Transactions on Mechatronics}, 
+  title={Edge Accelerated Robot Navigation With Collaborative Motion Planning}, 
+  year={2025},
+  volume={30},
+  number={2},
+  pages={1166-1178},
+  doi={10.1109/TMECH.2024.3419436}}
+```
 
-@article{li2023edge,
-  title={Edge Accelerated Robot Navigation With Collaborative Motion Planning},
-  author={Li, Guoliang and Han, Ruihua and Wang, Shuai and Gao, Fei and Eldar, Yonina C and Xu, Chengzhong},
-  journal={IEEE/ASME Transactions on Mechatronics},
-  year={2024},
-  publisher={IEEE}
-}
+```
+  @ARTICLE{10036019,
+  author={Han, Ruihua and Wang, Shuai and Wang, Shuaijun and Zhang, Zeqing and Zhang, Qianru and Eldar, Yonina C. and Hao, Qi and Pan, Jia},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={RDA: An Accelerated Collision Free Motion Planner for Autonomous Navigation in Cluttered Environments}, 
+  year={2023},
+  volume={8},
+  number={3},
+  pages={1715-1722},
+  doi={10.1109/LRA.2023.3242138}}
 
 ```
 
 ## Acknowledgement
 
 We would like to thank the authors and developers of the following projects, this project is built upon these great open-sourced projects.
-* [Carla](https://github.com/carla-simulator/carla)
-* [Carla-ROS-Bridge](https://github.com/carla-simulator/ros-bridge)
-* [RDA](https://github.com/hanruihua/RDA_planner)
+- [RDA-planner](https://github.com/hanruihua/RDA-planner)
+- [rda_ros](https://github.com/hanruihua/rda_ros)
+- [Carla](https://carla.org/)
+- [Carla-ROS-bridge](https://github.com/carla-simulator/ros-bridge)
 
 ## Authors
 
