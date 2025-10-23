@@ -29,7 +29,7 @@ You can firstly install the package by running the commands below:
 bash ./setup.sh
 ```
 
-Then you can run the commands below:
+For standalone navigation, you can run the commands below:
 ```
 cd $CARLA_ROOT
 bash ./CarlaUE4.sh
@@ -38,7 +38,7 @@ bash ./CarlaUE4.sh
 ./pdd_demo.sh
 ```
 
-Then you also can run the commands below:
+For multi-vehicle navigation, you can run the commands below:
 ```
 cd $CARLA_ROOT
 bash ./CarlaUE4.sh
