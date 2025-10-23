@@ -47,9 +47,55 @@ bash ./CarlaUE4.sh
 ./earn_demo.sh
 ```
 
+Then you will see Edge Accelerated Navigation in Town04 with traffics:
+
+
 
 > [!NOTE]
 EARN is developed based on RDA-planner and rda_ros. You may want to see more information in [RDA-planner](https://github.com/hanruihua/RDA-planner) and [rda_ros](https://github.com/hanruihua/rda_ros)
+
+
+## Parameters
+
+#### PDD Configuration
+
+| Parameter               | Type    | Default Value | Description                                                |
+| ----------------------- | ------- | ------------- | ---------------------------------------------------------- |
+| `~receding`             | `int`   | `15`          | Receding horizon parameter for MPC.                        |
+| `~iter_num`             | `int`   | `3`           | Number of iterations for the MPC solver.                   |
+| `~enable_reverse`       | `bool`  | `False`       | Enables reverse movement if set to `True`.                 |
+| `~sample_time`          | `float` | `0.3`         | Sampling time interval for the MPC.                        |
+| `~process_num`          | `int`   | `4`           | Number of parallel processes for MPC computation.          |
+| `~accelerated`          | `bool`  | `True`        | Enables accelerated computation in MPC.                    |
+| `~time_print`           | `bool`  | `False`       | Enables time logging for MPC operations.                   |
+| `~obstacle_order`       | `bool`  | `True`        | Determines if obstacle ordering by distance is applied.    |
+| `~max_edge_num`         | `int`   | `4`           | Maximum number of edges to consider for obstacles.         |
+| `~max_obs_num`          | `int`   | `4`           | Maximum number of obstacles to consider.                   |
+| `~goal_index_threshold` | `int`   | `1`           | Threshold for goal index determination.                    |
+| `~iter_threshold`       | `float` | `0.2`         | Iteration threshold for convergence in MPC.                |
+| `~slack_gain`           | `float` | `10`           | Gain for slack variables in MPC constraints.               |
+| `~max_sd`               | `float` | `1.0`         | Maximum safety distance.                                   |
+| `~min_sd`               | `float` | `0.1`         | Minimum safety distance.                                   |
+| `~ws`                   | `float` | `0.2`         | Weight for the state in the cost function.                 |
+| `~wu`                   | `float` | `1.4`         | Weight for the control inputs in the cost function.        |
+| `~ro1`                  | `float` | `0.1`         | Weight parameter for the first term in the cost function.  |
+| `~ro2`                  | `float` | `0.1`         | Weight parameter for the second term in the cost function. |
+| `~pdd_en`               | `bool` | `True`         | Enables penalty dual decomposition.  |
+| `~edge_accelerate`      | `bool` | `False`         | Enables edge collaboration.  |
+
+
+#### MPS Configuration
+
+| Parameter               | Type    | Default Value | Description                                                |
+| ----------------------- | ------- | ------------- | ---------------------------------------------------------- |
+| `~edge_position`             | `list`   | `[255, 172]`          | Position of edge server.                        |
+| `~coverage`             | `int`   | `500`          | Communication coverage of edge server.                        |
+| `~Cth`             | `int`   | `30`           | Maximum computation load in ms for the edge solver.                   |
+| `~receding`             | `int`   | `15`          | Receding horizon parameter for MPC.                        |
+| `~max_edge_num`         | `int`   | `4`           | Maximum number of edges to consider for obstacles.         |
+| `~max_obs_num`          | `int`   | `4`           | Maximum number of obstacles to consider.                   |
+
+
 
 ## Paper Video
 
