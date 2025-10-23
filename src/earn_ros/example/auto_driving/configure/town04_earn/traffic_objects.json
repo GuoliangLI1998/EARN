@@ -1,0 +1,159 @@
+{
+    "obstacles": [
+        {
+            "location": {
+                "x": 150,
+                "y": -176,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": 0
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 205,
+                "y": -172,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": 90
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 200,
+                "y": -200,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": 90
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 255,
+                "y": -135,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": 90
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 255,
+                "y": -200,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": 90
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 255,
+                "y": -220,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": 90
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 270,
+                "y": -123,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": 180
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 290,
+                "y": -123,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": 180
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 413.5,
+                "y": -90,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 413,
+                "y": -72,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 405,
+                "y": -85,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 402,
+                "y": -76,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 408,
+                "y": -56,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        },
+        {
+            "location": {
+                "x": 413,
+                "y": -83,
+                "z": 1
+            },
+            "rotation": {
+                "yaw": -90
+            },
+            "autopilot": false
+        }
+    ]
+}
+

@@ -1,0 +1,17 @@
+edge_position: [255, 172]
+coverage: 500
+Cth: 30
+
+robot_1: 
+  receding: 15
+  max_edge_num: 4
+  max_obs_num: 4
+
+robot_2: 
+  receding: 15
+  max_edge_num: 4
+  max_obs_num: 4
+
+
+
+

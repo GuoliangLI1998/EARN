@@ -1,0 +1,38 @@
+<launch>
+
+    <arg name='config_path' default='town04_earn'/>
+
+    <node pkg="carla_twist_to_control" type="carla_twist_to_control.py" name="carla_twist_to_control_agent1">
+      <param name="role_name" value="agent_1"/>
+    </node>
+
+    <node pkg="earn_ros" type="pdd_node.py" name="pdd_node_agent1" output="screen">
+      <rosparam file="$(find earn_ros)/example/auto_driving/configure/$(arg config_path)/pdd_carla_config_agent1.yaml" command="load" />
+      <remap from="pdd_cmd_vel" to="/carla/agent_1/twist"/>
+      <remap from="pdd_sub_path" to="/carla/agent_1/waypoints"/>
+      <remap from="pdd_opt_path" to="/carla/agent_1/pdd_opt_path"/>
+      <remap from="pdd_ref_path" to="/carla/agent_1/pdd_ref_path"/>
+      <remap from="stuck" to="/carla/agent_1/stuck"/>
+      <remap from="edge_acc" to="/carla/agent_1/edge_acc"/>
+    </node>
+
+    <node pkg="carla_twist_to_control" type="carla_twist_to_control.py" name="carla_twist_to_control_agent2">
+      <param name="role_name" value="agent_2"/>
+    </node>
+
+    <node pkg="earn_ros" type="pdd_node.py" name="pdd_node_agent2" output="screen">
+      <rosparam file="$(find earn_ros)/example/auto_driving/configure/$(arg config_path)/pdd_carla_config_agent2.yaml" command="load" />
+      <remap from="pdd_cmd_vel" to="/carla/agent_2/twist"/>
+      <remap from="pdd_sub_path" to="/carla/agent_2/waypoints"/>
+      <remap from="pdd_opt_path" to="/carla/agent_2/pdd_opt_path"/>
+      <remap from="pdd_ref_path" to="/carla/agent_2/pdd_ref_path"/>
+      <remap from="stuck" to="/carla/agent_2/stuck"/>
+      <remap from="edge_acc" to="/carla/agent_2/edge_acc"/>
+    </node>
+
+    <node pkg="earn_ros" type="mps_node.py" name="mps" output="screen">
+    <rosparam file="$(find earn_ros)/example/auto_driving/configure/$(arg config_path)/mps_carla_config.yaml" command="load" />
+    </node>
+
+
+</launch>

@@ -38,6 +38,16 @@ bash ./CarlaUE4.sh
 ./pdd_demo.sh
 ```
 
+Then you also can run the commands below:
+```
+cd $CARLA_ROOT
+bash ./CarlaUE4.sh
+```
+```
+./earn_demo.sh
+```
+
+
 > [!NOTE]
 EARN is developed based on RDA-planner and rda_ros. You may want to see more information in [RDA-planner](https://github.com/hanruihua/RDA-planner) and [rda_ros](https://github.com/hanruihua/rda_ros)
 
