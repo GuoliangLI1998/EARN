@@ -86,7 +86,7 @@ If you find our work helpful in your research, please consider **starring** the 
 
 ## Acknowledgement
 
-We would like to thank the authors and developers of the following projects, this project is built upon these great open-sourced projects.
+We would like to thank the authors and developers of the following projects. This project is built upon these great open-sourced projects.
 - [RDA-planner](https://github.com/hanruihua/RDA-planner)
 - [rda_ros](https://github.com/hanruihua/rda_ros)
 - [Carla](https://carla.org/)
