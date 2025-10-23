@@ -47,9 +47,6 @@ bash ./CarlaUE4.sh
 ./earn_demo.sh
 ```
 
-Then you will see Edge Accelerated Navigation in Town04 with traffics:
-
-
 
 > [!NOTE]
 EARN is developed based on RDA-planner and rda_ros. You may want to see more information in [RDA-planner](https://github.com/hanruihua/RDA-planner) and [rda_ros](https://github.com/hanruihua/rda_ros)
@@ -81,7 +78,7 @@ EARN is developed based on RDA-planner and rda_ros. You may want to see more inf
 | `~ro1`                  | `float` | `0.1`         | Weight parameter for the first term in the cost function.  |
 | `~ro2`                  | `float` | `0.1`         | Weight parameter for the second term in the cost function. |
 | `~pdd_en`               | `bool` | `True`         | Enables penalty dual decomposition.  |
-| `~edge_accelerate`      | `bool` | `False`         | Enables edge collaboration.  |
+| `~edge_accelerate`      | `bool` | `True`         | Enables edge collaboration.  |
 
 
 #### MPS Configuration
