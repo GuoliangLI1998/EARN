@@ -4,7 +4,7 @@ pdd MPC
 
 import numpy as np
 from math import inf, sqrt, pi, sin, cos, tan
-from pdd_planner.pdd_solver import pdd_solver
+from pdd_solver import pdd_solver
 import yaml
 from collections import namedtuple
 
