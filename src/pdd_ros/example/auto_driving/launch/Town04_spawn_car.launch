@@ -52,11 +52,6 @@
     <arg name='role_name' value='agent_0'/>
   </include>
 
-  <param name='robot_description' textfile='$(find pdd_ros)/car_model/urdf/rover.urdf'/>
-  <node pkg='tf' type='static_transform_publisher' name='description3' args='0 0 0 0 0 0 agent_0 root 100'/>
-  <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher"/>
-  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
-
 	<!--  **************** Visualisation ****************  -->
 	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find pdd_ros)/example/auto_driving/configure/$(arg config_path)/pdd_carla.rviz"/>
 
